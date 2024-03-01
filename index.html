@@ -18,15 +18,15 @@
         </nav>
         <hr />
       </div>
+    </header>
+
+    <main>
       <div class="menu">
         <span></span>
         <span></span>
         <span></span>
       </div>
-    </header>
-
-    <main>
-      <div class="container">
+      <div id="home" class="container">
         <div class="name">
           <h1 class="h1">Denis Novik</h1>
           <p class="p1">UX | UI designer 24 years old, Minsk</p>
@@ -137,7 +137,7 @@
         <h3>Contacts</h3>
         <p class="contacts_p">Want to know more or just chat?</p>
         <p class="contacts_p">You are welcome!</p>
-        <button>Send message</button>
+        <button class="send">Send message</button>
         <div class="icons">
           <a><img src="in.svg" /></a>
           <a><img src="surf.svg" /></a>
@@ -149,5 +149,44 @@
         </p>
       </div>
     </footer>
+    <div class="nav_menu d-none">
+      <div class="text_menu">
+        <h3><a href="#home">Home</a></h3>
+        <h3><a href="#about">About me</a></h3>
+        <h3><a href="#skills">Skills</a></h3>
+        <h3><a href="#portfolio">Portfolio</a></h3>
+        <h3><a href="#contacts">Contacts</a></h3>
+      </div>
+      <button class="but_menu">
+        <svg
+          width="23"
+          height="23"
+          viewBox="0 0 23 23"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="Group">
+            <rect
+              id="Rectangle"
+              x="2.68701"
+              width="27.3715"
+              height="3.8"
+              transform="rotate(45 2.68701 0)"
+              fill="#828282"
+            />
+            <rect
+              id="Rectangle_2"
+              x="0.831299"
+              y="19.5566"
+              width="27.3715"
+              height="3.8"
+              transform="rotate(-45 0.831299 19.5566)"
+              fill="#828282"
+            />
+          </g>
+        </svg>
+      </button>
+    </div>
   </body>
+  <script src="./script.js"></script>
 </html>
